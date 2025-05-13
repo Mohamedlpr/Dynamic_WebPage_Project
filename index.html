@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Web Page</title>
+    <link rel="icon" href="assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul id="nav_bar"></ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Title of the webpage -->
+        <h1>Dynamic Web Page</h1>
+        <!-- Section one -->
+        <section class="section" id="section1" data-description="first section">
+            <h2>Section 1</h2>
+            <!-- Decoration circle -->
+            <div id="light_green_circle"></div>
+            <!-- lorem paragraph -->
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, laboriosam nesciunt sint at excepturi nemo autem
+                eum rerum, veniam quis repellat tempora dolorum doloribus, neque dicta quos quisquam dignissimos atque.
+            </p>
+        </section>
+        <!-- Section two -->
+        <section class="section" id="section2" data-description="second section">
+            <h2>Section 2</h2>
+            <!-- Another decoration circle -->
+            <div id="light_blue_circle"></div>
+            <!--lorem paragraph -->
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus rem, odit mollitia nam perferendis reiciendis
+                sit labore doloribus. Quaerat saepe labore incidunt, laboriosam eligendi odio adipisci provident quod nostrum error!
+            </p>
+        </section>
+        <!-- Section three -->
+        <section class="section" id="section3" data-description="third section">
+            <h2>Section 3</h2>
+            <!-- Another decoration circle -->
+            <div id="blue_circle"></div>
+            <!--lorem paragraph -->
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minima illum odit ad in quia. Delectus obcaecati
+                quam sapiente eligendi, necessitatibus tempora, pariatur, fugiat soluta sequi deleniti quis ea dicta.
+            </p>
+        </section>
+        <!-- Section four -->
+        <section class="section" id="section4" data-description="fourth section">
+            <h2>Section 4</h2>
+            <!-- Another decoration circle -->
+            <div id="pink_circle"></div>
+            <!--lorem paragraph -->
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptates amet deleniti aperiam rem quam
+                obcaecati doloremque earum autem dicta modi sit itaque ipsa cumque minus, aliquam molestiae, quia porro.
+            </p>
+        </section>
+        <!-- Section five -->
+        <section class="section" id="section5" data-description="fifth section">
+            <h2>Section 5</h2>
+            <!-- Another decoration circle -->
+            <div id="orange_circle"></div>
+            <!--lorem paragraph -->
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tempore quidem quisquam, veniam facilis eaque.
+                Mollitia, ratione incidunt vero aspernatur facere eligendi reiciendis porro ad, quibusdam veritatis, iure quod molestiae!
+            </p>
+        </section>
+        <!-- You can keep adding sections and they will show up in the nav bar -->
+        <!-- Comment section -->
+        <section class="section" id="comments">
+            <h2>Comments</h2>
+            <p>Leave your feedback or questions below.</p>
+            <!-- decoration circles -->
+            <div id="yellow_circle"></div>
+            <div id="pink_circle"></div>
+            <!-- The comment form -->
+            <form id="comment_form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="text_areas" placeholder="Enter your name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="text_areas" placeholder="Enter your email" required>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" class="text_areas" placeholder="Enter your comment" ></textarea>
+                <button type="submit">Post Comment</button>
+            </form>
+            <!-- Error message -->
+            <div id="error_message">Please fill out all fields and provide a valid email address.</div>
+            <!-- Comments show up here -->
+            <div id="comments_list"></div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Dynamic Webpage. All rights reserved.</p>
+    </footer>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
